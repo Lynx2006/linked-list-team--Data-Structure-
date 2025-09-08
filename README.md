@@ -58,12 +58,12 @@ Contents:
 ---
 
 ## 👥 Team Contributions
-| Member              | Roll No | Contribution                          |
-|---------------------|---------|---------------------------------------|
-| Richan Jose         |   48    | Repo setup + Insertion function       |
-| Akash Mathew Thomas |   06    | Display function + Code improvements  |
-| Josemon Tomy        |   34    | Figma diagram + Report preparation    |
-
+| Member            | Roll No | Contribution                         |
+|-------------------|---------|--------------------------------------|
+| Nithin Roy        |   44    | Repo setup + Insertion function      |
+| Ouseppachan Saju  |   45    | Display function + Code improvements |
+| Prathyush K R     |   46    | Figma diagram + Report preparation   |
+| R Gokul Krishna   |   47    | Testing + Documentation              |
 
 
 ---
