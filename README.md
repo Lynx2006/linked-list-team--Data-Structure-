@@ -70,6 +70,9 @@ Contents:
 
 ✨ Reflection
 
-Working on this project gave us valuable insights into both technical and collaborative aspects of software development. We gained practical experience in building and manipulating linked lists, which strengthened our understanding of dynamic data structures. Using GitHub taught us the importance of version control, branching, and resolving merge conflicts, which are crucial skills for real-world teamwork. Creating Figma diagrams helped us visualize the structure and flow of the program, making abstract concepts easier to grasp. Most importantly, we learned how effective communication and shared responsibility lead to smoother project execution.
+• Learned how to implement and traverse linked lists.
+• Gained hands-on practice with GitHub (branches, commits, PRs).
+• Understood how Figma diagrams help visualize data structures.
+• Experienced teamwork and collaboration in coding projects.
 ---
 
