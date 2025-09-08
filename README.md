@@ -29,7 +29,7 @@ The program creates a linked list where:
 ---
 
 ## 🔀 GitHub Collaboration
-- **Repository Name:** `linked-list-team-<teamName>`
+- **Repository Name:** `linked-list-team-<Data Structure>`
 - **Workflow:**
   1. Each teammate created a branch using their roll number.
   2. Contributed small features (insertion, display, comments).
