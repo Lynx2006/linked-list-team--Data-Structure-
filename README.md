@@ -71,8 +71,12 @@ Contents:
 ✨ Reflection
 
 • Learned how to implement and traverse linked lists.
+
 • Gained hands-on practice with GitHub (branches, commits, PRs).
+
 • Understood how Figma diagrams help visualize data structures.
+
 • Experienced teamwork and collaboration in coding projects.
+
 ---
 
