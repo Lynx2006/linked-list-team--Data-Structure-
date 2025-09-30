@@ -165,7 +165,7 @@ Communication via GitHub and team discussions
 ---
 
 ## 🎨 Figma Diagrams
-- **Diagram File:** [`figma-diagrams/linked_list_diagram.png`]<img width="1405" height="137" alt="Untitled" src="https://github.com/Lynx2006/linked-list-team--Data-Structure-/blob/main/DS%20ASSSS.png" />
+- **Diagram File:** [`figma-diagrams/linked_list_diagram.png`]<img width="1405" height="137" alt="Untitled" src="https://github.com/Lynx2006/linked-list-team--Data-Structure-/blob/main/DS%20ASSSSssssss.png" />
  
 - **Public Figma Link:** [View Diagram][(https://www.figma.com/file/xxxxx/linked-list-diagram)](https://www.figma.com/design/wL9ApNJinsTEoBF7WwcrJj/Untitled?node-id=0-1&p=f&t=qwyHAVfWOLBaK265-0)
 
