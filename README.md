@@ -233,8 +233,6 @@ Each team member worked independently by creating a **personal Git branch** name
 The team implemented the core functionalities of a **Doubly Linked List**, including:
 
 - ✅ Node insertion:
-  - At the beginning
-  - At the end
   - At a specific position
 - ✅ Node deletion
 - ✅ Forward traversal (display)
