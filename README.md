@@ -21,98 +21,189 @@ The program creates a linked list where:
 #include <stdio.h>
 
 #include <stdlib.h>
+
 struct Node {
+    
     int data;
+    
     struct Node* prev;
+    
     struct Node* next;
+    
 };
+
 struct Node* createNode(int data) {
+    
     struct Node* newNode = (struct Node*)malloc(sizeof(struct Node));
+    
     newNode->data = data;
+    
     newNode->prev = NULL;
+    
     newNode->next = NULL;
+    
     return newNode;
+    
 }
+
 struct Node* insertAtPosition(struct Node* head, int data, int pos) {
+    
     struct Node* newNode = createNode(data);
+    
     if (pos == 1) {
+            
         newNode->next = head;
+    
         if (head != NULL)
+            
             head->prev = newNode;
+        
         return newNode;
+        
     }
+    
     struct Node* temp = head;
+    
     int i;
+    
     for (i = 1; temp != NULL && i < pos - 1; i++) {
+            
         temp = temp->next;
+    
     }
+    
     if (temp == NULL) {
+            
         printf("Position out of range!\n");
+    
         free(newNode);
+        
         return head;
+        
     }
+    
     newNode->next = temp->next;
+    
     newNode->prev = temp;
+    
     if (temp->next != NULL)
+        
         temp->next->prev = newNode;
-    temp->next = newNode;
+    
+        temp->next = newNode;
+    
     return head;
+    
 }
+
 struct Node* deleteAtPosition(struct Node* head, int pos) {
+    
     if (head == NULL) {
+            
         printf("List is empty!\n");
+    
         return head;
+        
     }
+    
     struct Node* temp = head;
+    
     if (pos == 1) {
+            
         head = temp->next;
+    
         if (head != NULL)
+            
             head->prev = NULL;
+        
         free(temp);
+        
         return head;
+        
     }
+    
     int i;
+    
     for (i = 1; temp != NULL && i < pos; i++) {
+            
         temp = temp->next;
+    
     }
+    
     if (temp == NULL) {
+            
         printf("Position out of range!\n");
+    
         return head;
+        
     }
+    
     if (temp->next != NULL)
-        temp->next->prev = temp->prev;
-    if (temp->prev != NULL)
+        
+        temp->next->prev = temp->prev
+        
         temp->prev->next = temp->next;
+        
     free(temp);
+    
     return head;
+    
 }
+
 void display(struct Node* head) {
+    
     struct Node* temp = head;
+    
     while (temp != NULL) {
+            
         printf("%d <-> ", temp->data);
+    
         temp = temp->next;
+        
     }
+    
     printf("NULL\n");
+    
 }
+
 int main() {
+    
     struct Node* head = NULL;
+    
     printf("Doubly Linked List :\n\n");
+    
     printf("Insetion at 1 st Position : ");
+    
     head = insertAtPosition(head, 10, 1);
+    
     display(head);
+    
     printf("\nInsetion at 2 nd Position : ");
+    
     head = insertAtPosition(head, 20, 2);
+    
     display(head);
+    
     printf("\nInsetion at 3 rd Position : ");
+    
     head = insertAtPosition(head, 30, 3);
+    
     display(head);
+    
     printf("\nDeletion at 2 nd Position : ");
+    
     head = deleteAtPosition(head, 2);
+    
     display(head);
+    
     printf("\nDeletion at 1 st Position : ");
+    
     head = deleteAtPosition(head, 1);
+    
     display(head);
+    
     return 0;
+    
 }
 
 ### Sample Output
