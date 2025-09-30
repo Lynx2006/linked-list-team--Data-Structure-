@@ -260,7 +260,7 @@ Communication via GitHub and team discussions
 
 ## 📑 Report
 Final report (PDF) is available here:  
-➡️ [`report/final_report.pdf`](report/final_report.pdf)
+➡️https://github.com/Lynx2006/linked-list-team--Data-Structure-/blob/main/Report.pdf
 
 Contents:
 - GitHub Repo Link
