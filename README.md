@@ -222,14 +222,33 @@ Deletion at 1 st Position : 30 <-> NULL
 
 ---
 
-## 🔀 GitHub Collaboration
-- **Repository Name:** `linked-list-team--Data-Structure-`
-- **Workflow:**
-  1. Each teammate created a branch using their roll number.
-  2. Contributed small features (insertion, display, comments).
-  3. Opened a **Pull Request (PR)** to merge into `main`.
-  4. Resolved merge conflicts collaboratively.
+## 🔀 Team Workflow:
 
+Branching Strategy:
+Each team member created a personal branch named after their roll number to work independently.
+
+Feature Contributions:
+Members contributed core functionalities of a Doubly Linked List, including:
+
+Node insertion (at beginning, end, and specific position)
+
+Node deletion
+
+Forward and backward traversal (display)
+
+Commenting and documentation for readability
+
+Pull Requests (PRs):
+Each member submitted a PR to merge their feature into the main branch after completing and testing their work.
+
+Merge Conflict Resolution:
+Conflicts were encountered during the merge process and were resolved through collaborative effort using:
+
+Peer code review
+
+Git conflict resolution tools
+
+Communication via GitHub and team discussions
 ---
 
 ## 🎨 Figma Diagrams
