@@ -223,7 +223,7 @@ Deletion at 1 st Position : 30 <-> NULL
 ---
 
 ## 🔀 GitHub Collaboration
-- **Repository Name:** `linked-list-team-<Data Structure>`
+- **Repository Name:** `linked-list-team--Data-Structure-`
 - **Workflow:**
   1. Each teammate created a branch using their roll number.
   2. Contributed small features (insertion, display, comments).
