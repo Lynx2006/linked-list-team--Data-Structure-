@@ -134,31 +134,32 @@ Insertion of 5 th roll no . : 8 -> 44 -> 45 -> 46 -> 47 -> NULL
 
 ---
 
-## 🔀 Team Workflow:
+🔀 Team Workflow:
+🧩 Team Workflow – Singly Linked List
+📁 Branching Strategy
+Each team member worked independently by creating a personal Git branch named after their roll number. This strategy allowed parallel development and minimized code conflicts.
 
-## 🧩 Team Workflow-Doubly linked list
+🚀 Feature Contributions
+The team implemented the core functionalities of a Singly Linked List, including:
 
-### 📁 Branching Strategy
-Each team member worked independently by creating a **personal Git branch** named after their **roll number**. This strategy allowed parallel development and minimized code conflicts.
+✅ Node insertion:
+• At a specific position
 
-### 🚀 Feature Contributions
-The team implemented the core functionalities of a **Doubly Linked List**, including:
+✅ Node deletion
 
-- ✅ Node insertion:
-  - At a specific position
-- ✅ Node deletion
-- ✅ Forward traversal (display)
-- ✅ Code commenting and documentation for improved readability
+✅ Forward traversal (display)
 
-### 🔁 Pull Requests (PRs)
-After completing and testing their features, each member submitted a **Pull Request (PR)** to merge their branch into the `main` branch, following standard version control practices.
+✅ Code commenting and documentation for improved readability
 
-### ⚠️ Merge Conflict Resolution
+🔁 Pull Requests (PRs)
+After completing and testing their features, each member submitted a Pull Request (PR) to merge their branch into the main branch, following standard version control practices.
+
+⚠️ Merge Conflict Resolution
 Merge conflicts were encountered during integration and resolved through:
 
-- 🔍 Peer code reviews  
-- 🛠️ Git conflict resolution tools  
-- 💬 Effective team communication via GitHub discussions and team meetings
+🔍 Peer code reviews
+🛠️ Git conflict resolution tools
+💬 Effective team communication via GitHub discussions and team meetings
 
 Communication via GitHub and team discussions
 ---
