@@ -117,17 +117,17 @@ int main() {
 
 ### Sample Output
 
-Doubly Linked List :
+Singly Linked List :
 
-Insetion at 1 st Position : 10 <-> NULL
+Insetion at 1 st Position : 10->NULL
 
-Insetion at 2 nd Position : 10 <-> 20 <-> NULL
+Insetion at 2 nd Position : 10->20->NULL
 
-Insetion at 3 rd Position : 10 <-> 20 <-> 30 <-> NULL
+Insetion at 3 rd Position : 10->20->30->NULL
 
-Deletion at 2 nd Position : 10 <-> 30 <-> NULL
+Deletion at 2 nd Position : 10->30->NULL
 
-Deletion at 1 st Position : 30 <-> NULL
+Deletion at 1 nd Position : 30->NULL
 
 ---
 
