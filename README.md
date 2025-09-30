@@ -100,34 +100,37 @@ void display(struct Node* head) {
 int main() {
 
     struct Node* head = NULL;
-
-    head = insertAtPosition(head, 10, 1);
-    head = insertAtPosition(head, 20, 2);
-    head = insertAtPosition(head, 30, 3);
+    printf("Singly Linked List :\n\n");
+    printf("Insertion of 1 st roll no . : ");
+    head = insertAtPosition(head,8, 1);
     display(head);
-
-    head = deleteAtPosition(head, 2);
+    printf("Insertion of 2 nd roll no . : ");
+    head = insertAtPosition(head, 44, 2);
     display(head);
-
-    head = deleteAtPosition(head, 1);
+    printf("Insertion of 3 rd roll no . : ");
+    head = insertAtPosition(head, 45, 3);
     display(head);
-
+    printf("Insertion of 4 th roll no . : ");
+    head = insertAtPosition(head,46, 4);
+    display(head);
+    printf("Insertion of 5 th roll no . : ");
+    head = insertAtPosition(head,47, 5);
+    display(head);
     return 0;
 }
-
 ### Sample Output
 
 Singly Linked List :
 
-Insetion at 1 st Position : 10->NULL
+Insertion of 1 st roll no . : 8 -> NULL
 
-Insetion at 2 nd Position : 10->20->NULL
+Insertion of 2 nd roll no . : 8 -> 44 -> NULL
 
-Insetion at 3 rd Position : 10->20->30->NULL
+Insertion of 3 rd roll no . : 8 -> 44 -> 45 -> NULL
 
-Deletion at 2 nd Position : 10->30->NULL
+Insertion of 4 th roll no . : 8 -> 44 -> 45 -> 46 -> NULL
 
-Deletion at 1 nd Position : 30->NULL
+Insertion of 5 th roll no . : 8 -> 44 -> 45 -> 46 -> 47 -> NULL
 
 ---
 
