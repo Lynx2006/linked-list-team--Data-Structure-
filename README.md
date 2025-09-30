@@ -224,29 +224,31 @@ Deletion at 1 st Position : 30 <-> NULL
 
 ## 🔀 Team Workflow:
 
-Branching Strategy:
-Each team member created a personal branch named after their roll number to work independently.
+## 🧩 Team Workflow-Doubly linked list
 
-Feature Contributions:
-Members contributed core functionalities of a Doubly Linked List, including:
+### 📁 Branching Strategy
+Each team member worked independently by creating a **personal Git branch** named after their **roll number**. This strategy allowed parallel development and minimized code conflicts.
 
-Node insertion (at beginning, end, and specific position)
+### 🚀 Feature Contributions
+The team implemented the core functionalities of a **Doubly Linked List**, including:
 
-Node deletion
+- ✅ Node insertion:
+  - At the beginning
+  - At the end
+  - At a specific position
+- ✅ Node deletion
+- ✅ Forward traversal (display)
+- ✅ Code commenting and documentation for improved readability
 
-Forward and backward traversal (display)
+### 🔁 Pull Requests (PRs)
+After completing and testing their features, each member submitted a **Pull Request (PR)** to merge their branch into the `main` branch, following standard version control practices.
 
-Commenting and documentation for readability
+### ⚠️ Merge Conflict Resolution
+Merge conflicts were encountered during integration and resolved through:
 
-Pull Requests (PRs):
-Each member submitted a PR to merge their feature into the main branch after completing and testing their work.
-
-Merge Conflict Resolution:
-Conflicts were encountered during the merge process and were resolved through collaborative effort using:
-
-Peer code review
-
-Git conflict resolution tools
+- 🔍 Peer code reviews  
+- 🛠️ Git conflict resolution tools  
+- 💬 Effective team communication via GitHub discussions and team meetings
 
 Communication via GitHub and team discussions
 ---
