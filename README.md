@@ -64,6 +64,7 @@ Contents:
 | Ouseppachan Saju  |   45    | Display function + Code improvements |
 | Prathyush K R     |   46    | Figma diagram + Report preparation   |
 | R Gokul Krishna   |   47    | Testing + Documentation              |
+| Albert Soni       |   08    | Search function + Debugging          |
 
 
 ---
